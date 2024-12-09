@@ -17,7 +17,7 @@ euler_type = 'ZYZ';
 dire = [0,0,1]';
 
 % Read the datalist
-fulldata = load('qx32.txt');
+fulldata = load('filename.txt');
 data = fulldata(:,row_start:row_end);
 [len,wid] = size(fulldata);
 rotMtx = zeros(3,3,len);
